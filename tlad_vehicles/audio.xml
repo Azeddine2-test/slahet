@@ -1,0 +1,6 @@
+<Addon>
+    <game content="ascii">e1:/pc/audio/config/ep1_game.dat</game>
+    <sounds content="ascii">e1:/pc/audio/config/ep1_sounds.dat</sounds>
+    <curves content="ascii">e1:/pc/audio/config/ep1_curves.dat</curves>
+    <staticbank content="ascii">EP1_SFX\RESIDENT_WEAPON</staticbank>
+</Addon>

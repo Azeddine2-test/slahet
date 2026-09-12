@@ -1,0 +1,169 @@
+<weaponinfo version="1">
+
+	<!-- The Lost and Damned weapons -->
+	<weapon type="EPISODIC_2">
+		<data slot="SHOTGUN" firetype="INSTANT_HIT" damagetype="BULLET" group="SHOTGUN" targetrange="35.0" weaponrange="35.0" clipsize="8" ammomax="250" timebetweenshots="1233">
+			<damage base="25" networkplayermod="5.0" networkpedmod="1.0"/>
+			<physics force="15.0"/>
+			<reload time="2933" fasttime="2933" crouchtime="2933"/>
+
+			<aiming accuracy="0.06">
+				<offset         x="0.16" y="1.0" z="0.44"/>
+				<crouchedoffset x="0.16" y="1.0" z="0.0"/>
+				<reticule standing="1.0" ducked="1.0" scale="0.0"/>
+			</aiming>
+
+			<pickup regentime="240000" ammoonstreet="16"/>
+
+			<controller>
+				<rumble duration="180" intensity="0.8"/>
+			</controller>
+
+
+			<flags>
+				<flag>GUN</flag>
+				<flag>CAN_AIM</flag>
+				<flag>CAN_FREE_AIM</flag>
+				<flag>ANIM_RELOAD</flag>
+				<flag>ANIM_CROUCH_FIRE</flag>
+				<flag>2HANDED</flag>
+				<flag>HIGHER_BREAK_FORCE</flag>
+				<flag>MISSION_CAN_FORCE_DRIVEBY_USE</flag>
+				<flag>DONT_RUMBLE_WHEN_DOING_DRIVE_BY</flag>
+			</flags>
+		</data>
+
+		<assets model="w_e1_sweeper">
+			<anim group="gun@test_gun">
+				<rates firerate="1.2" blindfirerate="1.2"/>
+			</anim>
+
+			<effects>
+				<muzzle fx="muz_street_shotgun"/>
+				<shell fx="weap_ejected_shotgun"/>
+			</effects>
+		</assets>
+	</weapon>
+
+	<weapon type="EPISODIC_6">
+		<data slot="SHOTGUN" firetype="INSTANT_HIT" damagetype="BULLET" group="SHOTGUN" targetrange="35.0" weaponrange="35.0" clipsize="2" ammomax="160" timebetweenshots="1233">
+			<damage base="30" networkplayermod="5.0" networkpedmod="1.0"/>
+			<physics force="27.0"/>
+			<reload time="1001" fasttime="1001" crouchtime="1001"/>
+
+			<aiming accuracy="0.16" pellets="28">
+				<offset         x="0.16" y="1.0" z="0.44"/>
+				<crouchedoffset x="0.16" y="1.0" z="0.0"/>
+				<reticule standing="1.4" ducked="1.4" scale="0.0"/>
+			</aiming>
+
+			<pickup regentime="240000" ammoonstreet="16"/>
+
+			<controller>
+				<rumble duration="200" intensity="1.0"/>
+			</controller>
+
+
+			<flags>
+				<flag>GUN</flag>
+				<flag>CAN_AIM</flag>
+				<flag>CAN_FREE_AIM</flag>
+				<flag>ANIM_RELOAD</flag>
+				<flag>ANIM_CROUCH_FIRE</flag>
+				<flag>2HANDED</flag>
+				<flag>HIGHER_BREAK_FORCE</flag>
+				<flag>CAN_BE_USED_AS_DRIVEBY</flag>
+			</flags>
+		</data>
+
+		<assets model="w_e1_sawnoff">
+			<anim group="gun@sawnoff">
+				<rates firerate="1.0" blindfirerate="1.0"/>
+			</anim>
+
+			<effects>
+				<muzzle fx="muz_sawn_off"/>
+				<shell fx="weap_ejected_shotgun"/>
+			</effects>
+		</assets>
+	</weapon>
+
+	<weapon type="EPISODIC_7">
+		<data slot="HANDGUN" firetype="INSTANT_HIT" damagetype="BULLET" group="PISTOL_SMALL" targetrange="55.0" weaponrange="65.0" clipsize="17" ammomax="1200" timebetweenshots="333">
+			<damage base="20" networkplayermod="3.0" networkpedmod="1.0"/>
+			<physics force="50.0"/>
+			<reload time="2000" fasttime="2000" crouchtime="2000"/>
+
+			<aiming accuracy="1.0" accuracyTime="1500.0">
+				<offset         x="0.15" y="1.0" z="0.55"/>
+				<crouchedoffset x="0.2"  y="1.0" z="0.05"/>
+				<reticule standing="0.65" ducked="0.55" scale="0.3"/>
+			</aiming>
+
+			<pickup regentime="120000" ammoonstreet="30"/>
+
+			<controller>
+				<rumble duration="110" intensity="0.02"/>
+			</controller>
+
+			<flags>
+				<flag>GUN</flag>
+				<flag>CAN_AIM</flag>
+				<flag>CAN_FREE_AIM</flag>
+				<flag>ANIM_RELOAD</flag>
+				<flag>ANIM_CROUCH_FIRE</flag>
+			</flags>
+		</data>
+
+		<assets model="w_e1_cz75">
+			<anim group="gun@cz75" meleegroup1="firearm_core">
+				<rates firerate="0.9" blindfirerate="2.9"/>
+			</anim>
+
+			<effects>
+				<muzzle fx="muz_pistol_cz75"/>
+				<shell fx="weap_ejected_pistol_cz75"/>
+			</effects>
+		</assets>
+	</weapon>
+
+	<weapon type="EPISODIC_8">
+		<data slot="THROWN" firetype="PROJECTILE" damagetype="EXPLOSIVE" group="GRENADE" targetrange="35.0" clipsize="1" ammomax="25">
+			<damage networkplayermod="2.0" networkpedmod="1.0"/>
+
+			<aiming accuracy="1.0">
+				<offset         x="0.0" y="1.0" z="0.0"/>
+				<crouchedoffset x="0.0" y="1.0" z="0.0"/>
+			</aiming>
+
+			<pickup regentime="360000" ammoonstreet="8"/>
+
+			<controller>
+				<rumble duration="50" intensity="0.1"/>
+			</controller>
+
+			<flags>
+				<flag>THROWN</flag>
+				<flag>CAN_AIM</flag>
+				<flag>CAN_FREE_AIM</flag>
+				<flag>ANIM_RELOAD</flag>
+				<flag>ANIM_CROUCH_FIRE</flag>
+				<flag>CAN_BE_USED_AS_DRIVEBY</flag>
+			</flags>
+
+			<projectile type="FUSE" fusetime="5000">
+				<explosion type="EPISODIC_1"/>
+				<physics force="33.0" vehiclevelocity="5.0"/>
+			</projectile>
+		</data>
+
+		<assets model="w_e1_pipebomb">
+			<anim group="grenade"/>
+
+			<effects>
+				<trail fx="weap_pipe_bomb_trail"/>
+			</effects>
+		</assets>
+	</weapon>
+
+</weaponinfo>

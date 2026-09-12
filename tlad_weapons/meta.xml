@@ -1,0 +1,13 @@
+<meta>
+    <file type="content" src="content.dat" />
+    <file type="audio" src="audio.xml" />
+
+    <file src="definitions.ide" />
+    <file src="weaponinfo.xml" />
+    <file src="animgrp.dat" />
+    <file src="gta_ep1.wpfl" />
+
+    <stream src="*.wdr" />
+    <stream src="*.wtd" />
+    <stream src="*.wbd" />
+</meta>

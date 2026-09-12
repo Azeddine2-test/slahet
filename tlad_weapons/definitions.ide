@@ -1,0 +1,15 @@
+weap
+# The Lost and Damned
+w_e1_pipebomb, 		w_e1_pipebomb, 		throw_grenade,		1,	100,	0
+w_e1_cz75,		w_e1_cz75,		gun@cz75,		1,	30,	0
+w_e1_sawnoff,		w_e1_sawnoff,		gun@sawnoff,		1,	30,	0
+w_e1_sweeper,		w_e1_sweeper,		gun@test_gun,		1,	30,	0
+end
+
+amat
+# The Lost and Damned
+w_e1_pipebomb, 		0, 		CM_WEAPONS_PIPE_BOMB
+w_e1_cz75,		0,		CM_WEAPONS_PISTOL
+w_e1_sawnoff,		0,		CM_WEAPONS_SAWN_OFF
+w_e1_sweeper,		0,		CM_WEAPONS_ASS_SHOT
+end

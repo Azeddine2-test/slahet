@@ -1,0 +1,12 @@
+<meta>
+    <file type="content" src="content.dat" />
+    <file type="audio" src="audio.xml" />
+
+    <file src="vehicles.ide" />
+    <file src="handling.dat" />
+    <file src="carcols.dat" />
+    <file src="vehOff.csv" />
+
+    <stream src="*.wft" />
+    <stream src="*.wtd" />
+</meta>

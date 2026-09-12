@@ -1,0 +1,7 @@
+#-------------------------------------------------------------------
+# Weapon groups
+#-------------------------------------------------------------------
+WeaponGroup( Streaming, gun@grnde_launch )
+WeaponGroup( Streaming, gun@test_gun )
+WeaponGroup( Streaming, gun@sawnoff )
+WeaponGroup( Streaming, gun@cz75 )
